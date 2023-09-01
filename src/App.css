@@ -4,7 +4,8 @@
   align-items: center;
   padding: 20px;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   background-color: #FFF9E4;
   text-align: center;
 }
@@ -75,6 +76,22 @@
   background-color: #3C9BF2;
   color: #102940;
   box-shadow: 4px 4px 0px 0px #163959;
+}
+
+.wrongAnswer {
+  text-align: left;
+  border-top: solid 1px black;
+  padding-top: 4px;
+  margin-bottom: 4px;
+}
+
+.correctAnswer {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.correctAnswerBottom {
+  margin-bottom: 8px;
 }
 
 .score-section {
