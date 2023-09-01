@@ -221,7 +221,6 @@ export const questions = [
   {
     questionText: 'Welches war das Wappen der Deutschen Demokratischen Republik?',
     image: 'src/assets/question18.png',
-    image: '../../assets/question18.png',
     answerOptions: [
       { answerText: 'A) 1', isCorrect: false },
       { answerText: 'B) 2', isCorrect: false },
