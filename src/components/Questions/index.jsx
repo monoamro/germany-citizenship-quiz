@@ -11,7 +11,7 @@ const Questions = ({ currentQuestion, questions, handleAnswerButtonClick }) => {
           </div>
         </div>
         {questions[currentQuestion].image && (
-          <img src={questions[currentQuestion].image} alt="Question" />
+          <img className="question-image" src={questions[currentQuestion].image} alt="Question" />
         )}
         <div className="answer-section">
           {questions[currentQuestion].answerOptions.map((answerOption, index) => (
