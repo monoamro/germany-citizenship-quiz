@@ -138,3 +138,28 @@
 .messageResult {
   margin-top: 40px;
 }
+
+.choose-language {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.choose-language button {
+  margin: 4px;
+  padding: 4px;
+  width: 40%;
+  background-color: black;
+  color: white;
+  font-size: medium;
+
+}
+
+.only-german {
+  color: red;
+  border: 2px solid red;
+  padding: 4px 12px;
+  margin: 12px 0px
+}
