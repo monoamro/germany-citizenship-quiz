@@ -406,7 +406,7 @@ export const questions = [
   },
   {
     questionText:
-      'Ab welchem Alter darf man in Berlin bei Kommunalwahlen (Wahl der Bezirksverordnetenversammlung) wählen?',
+      'Ab welchem Alter darf man in Berlin bei Kommunalwahlen (Wahl der Bezirksverordneten- versammlung) wählen?',
     answerOptions: [
       { answerText: 'A) 14', isCorrect: false },
       { answerText: 'B) 16', isCorrect: false },
